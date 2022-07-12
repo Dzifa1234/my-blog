@@ -1,0 +1,34 @@
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Charts templates & infographics in Figma',
+    github: 'https://github.com/Racheal1234/counter-app',
+    demo: 'https://dribbble.com/shots/17919820-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Figma dashboard UI kit for data design web apps',
+    github: 'https://github.com/Racheal1234/RA',
+    demo: 'https://dribbble.com/shots/18099259-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Crypto financial mobile templates for startups',
+    github: 'https://github.com/Racheal1234/RA',
+    demo: 'https://dribbble.com/shots/16674239-Crypto-financial-mobile-templates-for-startups',
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Futuristic dashboards to visualize your data',
+    github: 'https://github.com/Racheal1234/counter-app',
+    demo: 'https://dribbble.com/shots/16674357-Futuristic-dashboards-to-visualize-your-data/attachments/11711861?mode=media',
+  },
+  {
+
+  }
+
+]

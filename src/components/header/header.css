@@ -1,0 +1,78 @@
+header{
+    height: 120vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.header_container{
+    text-align: center;
+    height: 70%;
+    position: absolute;
+}
+/*========CTA==========*/
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.0rem;
+    justify-content: center;
+}
+
+/*========HEADER SOCIALS========*/
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 0.8rem;
+    position: absolute;
+    left: 50;
+
+    bottom: 5rem;
+
+}
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+.me{
+    background:linear-gradient(var(--color-primary),transparent);
+    width: 35rem;
+    height: 40rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding:5rem 5rem 5rem 5rem ;
+}
+.scroll--down{
+    position: absolute;
+    right: 3rem;
+    bottom: 9rem;
+    transform:rotate(90deg) ;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-right: 300px;
+}
+
+/*======== Media Queries (medium devices)=====*/
+@media screen and (max-width:1024px) { 
+      header {
+          height: 68vh;
+      }
+
+     }
+
+/*=========Media Queries (Small Device)===========*/
+     @media screen and (max-width:600px) { 
+      header {
+          height: 100vh;
+      }
+      .header__socials,.scroll--down{
+          display: none;
+      }
+
+          }
