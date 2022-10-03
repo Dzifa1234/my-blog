@@ -1,6 +1,5 @@
 {
   "name": "my-blog",
-  "homepage": "https://dzifa's tutorials.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
